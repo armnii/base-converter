@@ -41,3 +41,8 @@ function convertToHexa(input) {
     }
     return resultInHexa;
 }
+
+module.exports = {
+    convertToBinary,
+    convertToHexa
+}
